@@ -190,8 +190,8 @@ body {
 }
 footer {
   background-color: var(--navyblue);
-  padding-bottom: 100px;
-  padding-top: 101.5px;
+  padding-bottom: 96px;
+  padding-top: 97.5px;
 }
 .entire-footer {
   display: flex;
