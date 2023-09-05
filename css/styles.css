@@ -95,7 +95,15 @@ body {
   color: var(--iris);
   background-color: var(--cloud);
 }
-
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  line-height: 111.111%;
+  margin-top: 0px;
+  margin-bottom: 72px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
 .features {
   display: flex;
   flex-direction: column;
@@ -242,16 +250,6 @@ body {
   .activities img:last-of-type {
     margin-right: 0px;
   }
-}
-
-.section-title {
-  font-size: 36px;
-  text-align: center;
-  line-height: 111.111%;
-  margin-top: 0px;
-  margin-bottom: 72px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .team-members {
