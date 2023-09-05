@@ -32,7 +32,8 @@ body {
   justify-content: space-between;
 }
 .header-right,
-.main-navigation {
+.main-navigation,
+.features svg {
   display: none;
 }
 .logo {
@@ -92,6 +93,34 @@ body {
 .order-button:hover {
   color: var(--iris);
   background-color: var(--cloud);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 72px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feature-title {
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.feature-description {
+  line-height: 150%;
+  color: var(--slate);
+  letter-spacing: 0.02em;
+  margin-block: 0px;
+  font-weight: 500;
 }
 @media screen and (min-width: 1200px) {
   body {
@@ -183,31 +212,23 @@ body {
   .order-button {
     margin-left: 480px;
   }
-}
-
-.features {
-  display: flex;
-  justify-content: space-between;
-}
-
-.feature {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.feature-title {
-  font-size: 20px;
-  letter-spacing: 0.02em;
-  line-height: 120%;
-  font-weight: 500;
-}
-.feature-description {
-  line-height: 150%;
-  color: var(--slate);
-  letter-spacing: 0.02em;
-  width: 264px;
-  margin-block: 0px;
+  .features {
+    flex-direction: row;
+  }
+  .features svg {
+    display: initial;
+  }
+  .feature-title {
+    font-size: 20px;
+    line-height: 120%;
+    font-weight: 500;
+    text-align: left;
+  }
+  .feature-description {
+    width: 264px;
+    margin-block: 0px;
+    font-weight: 400;
+  }
 }
 
 .section-title {
