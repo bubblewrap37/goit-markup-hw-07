@@ -33,7 +33,8 @@ body {
 }
 .header-right,
 .main-navigation,
-.features svg {
+.features svg,
+.activities {
   display: none;
 }
 .logo {
@@ -229,6 +230,18 @@ body {
     margin-block: 0px;
     font-weight: 400;
   }
+  .activities {
+    padding-bottom: 120px;
+    font-size: 0px;
+    display: block;
+  }
+  .activities img {
+    display: inline-block;
+    margin-right: 24px;
+  }
+  .activities img:last-of-type {
+    margin-right: 0px;
+  }
 }
 
 .section-title {
@@ -239,17 +252,6 @@ body {
   margin-bottom: 72px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
-.activities {
-  padding-bottom: 120px;
-  font-size: 0px;
-}
-.activities img {
-  display: inline-block;
-  margin-right: 24px;
-}
-.activities img:last-of-type {
-  margin-right: 0px;
 }
 
 .team-members {
