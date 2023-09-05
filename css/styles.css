@@ -381,16 +381,18 @@ footer {
   }
   .feature-description {
     width: 356px;
-    margin-block: 0px;
+  }
+  .team-member-wrapper {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    justify-content: center;
+  }
+  .team-member {
+    margin: 0;
   }
 
-  .team-member {
-    margin-inline: 0 24px;
-    margin-bottom: 0px;
-  }
-  .team-member:last-of-type {
-    margin-right: 0px;
-  }
   .customers-logos {
     gap: 24px;
   }
@@ -472,7 +474,6 @@ footer {
   }
   .feature-description {
     width: 264px;
-    margin-block: 0px;
     font-weight: 400;
   }
   .activities {
@@ -488,11 +489,7 @@ footer {
     margin-right: 0px;
   }
   .team-member {
-    margin-inline: 0 24px;
-    margin-bottom: 0px;
-  }
-  .team-member:last-of-type {
-    margin-right: 0px;
+    margin: 0;
   }
   .customers-logos {
     gap: 24px;
