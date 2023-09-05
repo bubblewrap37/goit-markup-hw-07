@@ -21,7 +21,6 @@ body {
 }
 .container {
   margin: 0 auto;
-
   width: 396px;
 }
 .section {
@@ -172,6 +171,16 @@ body {
   padding-inline: 16px;
   padding-bottom: 32px;
 }
+.customers-logos {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  row-gap: 72px;
+  list-style-type: none;
+  padding-inline: 0px;
+  margin-block: 0px;
+  flex-wrap: wrap;
+}
 @media screen and (min-width: 1200px) {
   body {
     width: 1440px;
@@ -298,15 +307,9 @@ body {
   .team-member:last-of-type {
     margin-right: 0px;
   }
-}
-
-.customers-logos {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  list-style-type: none;
-  padding-inline: 0px;
-  margin-block: 0px;
+  .customers-logos {
+    gap: 24px;
+  }
 }
 
 footer {
