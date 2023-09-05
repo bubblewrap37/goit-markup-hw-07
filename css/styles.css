@@ -131,6 +131,23 @@ body {
   margin-block: 0px;
   font-weight: 500;
 }
+.team-members {
+  background-color: var(--cloud);
+  font-size: 0px;
+}
+.team-member {
+  display: inline-block;
+  background-color: var(--white);
+  margin-left: 64px;
+  margin-bottom: 72px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-member:last-of-type {
+  margin-bottom: 0px;
+}
 @media screen and (min-width: 1200px) {
   body {
     width: 1440px;
@@ -250,25 +267,15 @@ body {
   .activities img:last-of-type {
     margin-right: 0px;
   }
+  .team-member {
+    margin-inline: 0 24px;
+    margin-bottom: 0px;
+  }
+  .team-member:last-of-type {
+    margin-right: 0px;
+  }
 }
 
-.team-members {
-  background-color: var(--cloud);
-
-  font-size: 0px;
-}
-.team-member {
-  display: inline-block;
-  background-color: var(--white);
-  margin-right: 24px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-member:last-of-type {
-  margin-right: 0px;
-}
 .team-member-name {
   font-weight: 500;
   font-size: 20px;
