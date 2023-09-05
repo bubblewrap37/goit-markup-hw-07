@@ -372,33 +372,18 @@ footer {
   }
   .features {
     flex-direction: row;
+    column-gap: 24px;
+    flex-wrap: wrap;
   }
-  .features svg {
-    display: initial;
-  }
+
   .feature-title {
-    font-size: 20px;
-    line-height: 120%;
-    font-weight: 500;
     text-align: left;
   }
   .feature-description {
-    width: 264px;
+    width: 356px;
     margin-block: 0px;
-    font-weight: 400;
   }
-  .activities {
-    padding-bottom: 120px;
-    font-size: 0px;
-    display: block;
-  }
-  .activities img {
-    display: inline-block;
-    margin-right: 24px;
-  }
-  .activities img:last-of-type {
-    margin-right: 0px;
-  }
+
   .team-member {
     margin-inline: 0 24px;
     margin-bottom: 0px;
@@ -475,7 +460,7 @@ footer {
     margin-left: 480px;
   }
   .features {
-    flex-direction: row;
+    flex-wrap: nowrap;
   }
   .features svg {
     display: initial;
@@ -484,7 +469,6 @@ footer {
     font-size: 20px;
     line-height: 120%;
     font-weight: 500;
-    text-align: left;
   }
   .feature-description {
     width: 264px;
