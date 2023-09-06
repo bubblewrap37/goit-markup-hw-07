@@ -310,7 +310,7 @@ footer {
   width: 100vw;
   height: 100vh;
   padding: 32px;
-  background-color: #3f51b5;
+  background-color: var(--white);
   z-index: 999;
 
   transform: translateX(100%);
@@ -337,9 +337,29 @@ footer {
 .mobile-menu .link {
   display: block;
   padding: 10px;
-  color: #fff;
+  color: var(--navyblue);
   text-decoration: none;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  font-size: 36px;
 }
+.mobile-menu .phone {
+  color: var(--slate, #434455);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.mobile-menu-socials {
+  display: flex;
+  font-size: 0px;
+  gap: 56px;
+  padding-left: 0px;
+  margin-top: 48px;
+  padding-bottom: 40px;
+  list-style-type: none;
+}
+
 @media screen and (min-width: 768px) {
   body {
     width: 768px;
